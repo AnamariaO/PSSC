@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ABF63C87-B790-4353-8746-DD5683A47717}</ProjectGuid>
+    <ProjectGuid>{3DE0DA60-6B80-456F-9183-F950A84E0B35}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GestionareFacultate</RootNamespace>
-    <AssemblyName>GestionareFacultate</AssemblyName>
+    <RootNamespace>Profesor</RootNamespace>
+    <AssemblyName>Profesor</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Welcome.cs">
+    <Compile Include="Gestionare.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Welcome.Designer.cs">
-      <DependentUpon>Welcome.cs</DependentUpon>
+    <Compile Include="Gestionare.Designer.cs">
+      <DependentUpon>Gestionare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Welcome.resx">
-      <DependentUpon>Welcome.cs</DependentUpon>
+    <EmbeddedResource Include="Gestionare.resx">
+      <DependentUpon>Gestionare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

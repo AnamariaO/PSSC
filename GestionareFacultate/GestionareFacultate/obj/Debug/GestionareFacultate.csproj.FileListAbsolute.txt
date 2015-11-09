@@ -1,1 +1,9 @@
 D:\Anamaria\Documents\GitHub\PSSC\GestionareFacultate\GestionareFacultate\bin\Debug\GestionareFacultate.exe.config
+D:\Anamaria\Documents\GitHub\PSSC\GestionareFacultate\GestionareFacultate\bin\Debug\GestionareFacultate.exe
+D:\Anamaria\Documents\GitHub\PSSC\GestionareFacultate\GestionareFacultate\bin\Debug\GestionareFacultate.pdb
+D:\Anamaria\Documents\GitHub\PSSC\GestionareFacultate\GestionareFacultate\obj\Debug\GestionareFacultate.csprojResolveAssemblyReference.cache
+D:\Anamaria\Documents\GitHub\PSSC\GestionareFacultate\GestionareFacultate\obj\Debug\GestionareFacultate.Welcome.resources
+D:\Anamaria\Documents\GitHub\PSSC\GestionareFacultate\GestionareFacultate\obj\Debug\GestionareFacultate.Properties.Resources.resources
+D:\Anamaria\Documents\GitHub\PSSC\GestionareFacultate\GestionareFacultate\obj\Debug\GestionareFacultate.csproj.GenerateResource.Cache
+D:\Anamaria\Documents\GitHub\PSSC\GestionareFacultate\GestionareFacultate\obj\Debug\GestionareFacultate.exe
+D:\Anamaria\Documents\GitHub\PSSC\GestionareFacultate\GestionareFacultate\obj\Debug\GestionareFacultate.pdb
