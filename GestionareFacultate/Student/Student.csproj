@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConectareBazaDeDate.cs" />
+    <Compile Include="Disciplina.cs" />
     <Compile Include="Discipline.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +68,7 @@
       <DependentUpon>Media.cs</DependentUpon>
     </Compile>
     <Compile Include="Medie.cs" />
+    <Compile Include="Note.cs" />
     <Compile Include="NumarMatricol.cs" />
     <Compile Include="Optiuni.cs">
       <SubType>Form</SubType>
@@ -74,6 +76,7 @@
     <Compile Include="Optiuni.Designer.cs">
       <DependentUpon>Optiuni.cs</DependentUpon>
     </Compile>
+    <Compile Include="OptiuniCamin.cs" />
     <Compile Include="Student.cs">
       <SubType>Form</SubType>
     </Compile>
