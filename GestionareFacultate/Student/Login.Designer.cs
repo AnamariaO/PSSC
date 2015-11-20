@@ -28,17 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox_nrMatricol = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBox_nrMatricol
             // 
-            this.textBox1.Location = new System.Drawing.Point(157, 22);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(135, 20);
-            this.textBox1.TabIndex = 0;
+            this.textBox_nrMatricol.Location = new System.Drawing.Point(157, 22);
+            this.textBox_nrMatricol.Name = "textBox_nrMatricol";
+            this.textBox_nrMatricol.Size = new System.Drawing.Size(135, 20);
+            this.textBox_nrMatricol.TabIndex = 0;
+            this.textBox_nrMatricol.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -66,7 +67,7 @@
             this.ClientSize = new System.Drawing.Size(324, 88);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox_nrMatricol);
             this.Name = "Login";
             this.Text = "Login";
             this.ResumeLayout(false);
@@ -76,7 +77,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox_nrMatricol;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
     }
